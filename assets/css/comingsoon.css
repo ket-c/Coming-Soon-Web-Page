@@ -24,7 +24,7 @@ b {
     background: linear-gradient(25deg, #a055fa, 50%, #4499f6);
 }
 #page_2_body #section_1{
-background-image: url('/assets/img/construction-bg.png') ;
+background-image: url('../../assets/img/construction-bg.png') ;
 background-repeat: no-repeat;
 background-size:95%;
 background-position: center;
