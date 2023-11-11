@@ -16,3 +16,34 @@ b {
 .footer-copyright {
     bottom: 0 !important;
 }
+/* second page */
+#page_2_body #section_2{
+    background: linear-gradient(25deg, #4499f6, 50%, #a055fa);
+}
+#page_2_body #send_now{
+    background: linear-gradient(25deg, #a055fa, 50%, #4499f6);
+}
+#page_2_body #section_1{
+background-image: url('/assets/img/construction-bg.png') ;
+background-repeat: no-repeat;
+background-size:95%;
+background-position: center;
+
+}
+#page_2_body .stay-connected{
+    color: grey !important;
+}
+@media (max-width: 768px){
+    #page_2_body #section_1{
+        display: none !important;
+    }   
+    #page_2_body .coming-soon-sm{
+        display: block !important;
+    }
+}
+@media (min-width: 768px){
+    #page_2_body .coming-soon-sm{
+        display: none !important;
+
+    }
+}
