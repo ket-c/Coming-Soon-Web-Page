@@ -16,3 +16,7 @@ b {
 .footer-copyright {
     bottom: 0 !important;
 }
+.bg-warning {
+    --bs-bg-opacity: 1;
+    background-color: #f5593d;
+}
